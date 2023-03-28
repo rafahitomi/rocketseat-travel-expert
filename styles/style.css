@@ -63,3 +63,25 @@ span {
   border-radius: 5rem;
   background-color: var(--cor-rosa);
 }
+
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 720px) {
+  .principal__titulo {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .principal__texto {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .primeiro__link,
+  .segundo__link {
+    font-size: 18px;
+    padding: 1rem 1rem;
+  }
+}
